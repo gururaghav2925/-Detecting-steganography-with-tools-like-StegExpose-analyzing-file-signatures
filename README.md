@@ -45,12 +45,27 @@ xxd suspect.jpg | head
 java -jar StegExpose.jar suspect.jpg
 ```
 
+## Analyze the Type of the file
+
+
 <img width="936" height="277" alt="image" src="https://github.com/user-attachments/assets/2851f3ae-f9c6-449d-9302-1ca8a39dd0dd" />
 
-
+## Install Steghide 
 
 <img width="963" height="208" alt="image" src="https://github.com/user-attachments/assets/d065627b-1261-4930-8458-5f2ef94c437a" />
 
+## Using steghide embed the jpeg file
+
+```bash
+steghide embed -cf 12.jpeg -ef secret.txt
+```
+
+
+<img width="939" height="237" alt="image" src="https://github.com/user-attachments/assets/6a8cf783-3a7f-4245-bbbf-0dbe1a0baa8b" />
+
+
+
+## using steghide extract thr file in the jpeg file
 
 
 
@@ -58,7 +73,6 @@ java -jar StegExpose.jar suspect.jpg
 
 
 
-<img width="939" height="237" alt="image" src="https://github.com/user-attachments/assets/6a8cf783-3a7f-4245-bbbf-0dbe1a0baa8b" />
 
 ## OUTPUT:
 List of Images with Steganography Detection Scores and File Signature Details
