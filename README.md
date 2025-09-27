@@ -44,6 +44,22 @@ xxd suspect.jpg | head
 ```bash
 java -jar StegExpose.jar suspect.jpg
 ```
+
+<img width="936" height="277" alt="image" src="https://github.com/user-attachments/assets/2851f3ae-f9c6-449d-9302-1ca8a39dd0dd" />
+
+
+
+<img width="963" height="208" alt="image" src="https://github.com/user-attachments/assets/d065627b-1261-4930-8458-5f2ef94c437a" />
+
+
+
+
+<img width="946" height="121" alt="image" src="https://github.com/user-attachments/assets/411c8ba3-eb4a-42d6-a08d-5839d34eb775" />
+
+
+
+<img width="939" height="237" alt="image" src="https://github.com/user-attachments/assets/6a8cf783-3a7f-4245-bbbf-0dbe1a0baa8b" />
+
 ## OUTPUT:
 List of Images with Steganography Detection Scores and File Signature Details
 
